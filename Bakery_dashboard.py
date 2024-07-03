@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import plotly.express as px
-import pickle
 import joblib
 
 # Load the data
