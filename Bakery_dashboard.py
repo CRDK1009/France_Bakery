@@ -3,10 +3,11 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 import streamlit as st
 import pandas as pd
-import joblib
 import numpy as np
 from datetime import datetime
 import plotly.express as px
+import pickle
+import joblib
 
 # Load the data
 weather_data = pd.read_csv('weather_2021.01.01-2022.10.31.csv')
