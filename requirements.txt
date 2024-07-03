@@ -3,4 +3,4 @@ joblib==0.14.1
 pandas
 numpy
 plotly
-
+scikit-learn
