@@ -22,7 +22,7 @@ weather_data['year'] = weather_data['date'].dt.year
 sales_data['date'] = pd.to_datetime(sales_data['date'])
 
 # Load the trained model
-loaded_rf_model = joblib.load('random_forest_model.sav')
+loaded_rf_model = joblib.load("random_forest_model.sav")
 
 # Merge weather data with sales data
 merged_data = pd.merge(weather_data, sales_data, on='date', how='inner')
